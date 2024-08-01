@@ -71,7 +71,7 @@ body {
 .inputFieldsSub {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   max-width: 300px;
 }
 
@@ -110,4 +110,20 @@ p.accountLink {
 span.accountLink {
   color: #596d48;
   font-weight: bolder;
+}
+
+#password1Input:invalid,
+#password2Input:invalid {
+  border: 1px solid red;
+  padding: 2px;
+}
+
+.formItem input:focus {
+  border: 1px solid lightskyblue;
+  box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+}
+
+.subInfo {
+  color: red;
 }
