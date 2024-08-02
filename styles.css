@@ -71,7 +71,7 @@ body {
 .inputFieldsSub {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   max-width: 300px;
 }
 
@@ -126,4 +126,5 @@ span.accountLink {
 
 .subInfo {
   color: red;
+  height: 16px;
 }
